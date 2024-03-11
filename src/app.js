@@ -19,11 +19,12 @@ class App extends React.Component {
     render() {
         return (
             <div className="main-section">
-                <Header />
-                <UsersList />
+                <Header />              
+                <UsersList />                          
             </div>
-        )
-    }
+        )          
+ 
+    }  
 }
 
 ReactDOM.render(
@@ -31,3 +32,4 @@ ReactDOM.render(
         <App />
     </Provider>,
 document.getElementById('root'));
+
